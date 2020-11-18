@@ -1,0 +1,10 @@
+[1109/204328.808:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1110/010046.160:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/010046.207:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\carolina\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\5b3503ba-a616-4a6b-82a1-81aaded30e29: El sistema no puede encontrar la ruta especificada. (0x3)
+[1110/010054.921:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/010054.952:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/010058.700:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/010125.976:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/010138.714:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/010151.212:ERROR:process_info.cc(359)] UncheckedAllocate
+[1110/012032.715:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

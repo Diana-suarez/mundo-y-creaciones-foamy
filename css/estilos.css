@@ -1,0 +1,686 @@
+
+/*familia de fuentes: 'Economica', sans-serif;
+familia de fuentes: 'Ruda', sans-serif;
+font-family: 'Conv_ClementePDaa-Hairline[1]';
+*/
+
+/*'Conv_CaviarDreams[1]';*/
+
+
+body{
+    
+    background-color: cornsilk;
+    background-image: url(../images/fondo%20pagina%20web.jpg);
+  
+  
+    
+    
+}
+
+
+/*contenedordelapagina*/
+.contenedortotal{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hijo-header{
+    
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    
+    background-image: url(../images/logo.png);
+    
+    width:100%;
+    margin: 0% 40%;
+}
+
+
+
+.bmenu{
+    width: 90%;
+    margin: 0% 10%;
+   
+    padding: 5px 6px;
+   width: center;
+}
+
+.bmenu ul{
+    width: 80%;
+    margin: 0,9% 100%; 
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;  
+}
+.bmenu li:hover, .bmenu ul li a.activo
+{
+    background: rgba(217,138,214,0.4);
+    transition: all 1s;
+}
+
+.bmenu ul li{
+    width: 12%;
+    text-align: center;
+    width: center;
+} 
+
+.bmenu ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Economica', sans-serif;
+    font-size: 0,16em;
+}
+    
+                                                                                            
+
+.baner{
+    background-image: url(../images/conocenos.png);
+    height: 400px;
+    width: 50% 50%;
+    margin: 2%;
+    padding: -5px;
+}
+.papa baner{
+    width: 20% 5%;
+     height: 100px;
+}
+
+/*videoinicio*/
+
+.videox{
+    width: 100%; 
+}
+
+.caja-video{
+}
+
+.videox video{
+    
+    width: 100%;
+}
+
+/*formulario*/
+
+
+.titulo{
+    
+color: crimson;
+    
+    
+    font-size: 2em;
+ margin: 0 455px;
+    font-family: 'Conv_ClementePDaa-Hairline[1]';
+}
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #FFCCCC;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #FF99CC; 
+  font-size: 1em;
+  resize: horizontal; 
+    
+}
+
+form button {
+	display: block;
+	background-color: #FF66CC;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: 'Conv_ClementePDaa-Hairline[1]';
+}
+form button hover{
+	background-color: #FF66CC;
+    
+    
+}
+
+
+.form{
+    width: 100%;
+   ;
+    padding: 0px 0;
+
+}
+
+.form ul{
+     width: 70%;
+    margin: 2% 10%;
+    
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.pdf{
+    
+    background-color: white;
+    widows: 20%;
+    width: 50% 100%;
+    margin: 2%;
+    padding: -20px;
+    
+    
+}
+.banner{
+    background-image: url(../images/nuestros-proyectos.png);
+    height: 400px;
+    width: 5% 100%;
+    margin: 2%;
+    padding: -5px;
+}
+.papa banner{
+    width: 20% 5%;
+    
+}
+
+
+.bannner{
+     background-image: url(../images/tienda-virtual.png);
+    height: 400px;
+    width: 5% 100%;
+    margin: 2%;
+    padding: -5px;
+}
+.papa bannner{
+    width: 20% 5%;
+    
+}
+
+.bannnner{
+     background-image: url(../images/aprende-con-nootros.png);
+    height: 400px;
+    width: 5% 80%;
+    margin: 2%;
+    padding: -10px;
+}
+.papa bannnner{
+    width: 10% 2%;
+    
+}
+
+/*mapa*/
+
+.mapa{}
+
+.papa-mapa{
+    width: 100%;
+    margin: auto;
+    
+}
+
+iframe{
+    width: 100%;
+    
+}
+
+/*galeria*/
+
+.slider{
+ width: 100%;
+   ;
+/*    padding: 30px 0;*/
+}
+
+/*
+.slider ul{
+     width: 100%;
+    margin: 2% 0%;
+     list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+.papa-slider img{
+   width: 100%;
+    object-fit: cover;
+}
+#slider li{
+    width: 80%
+}
+
+
+.slide {
+ width: 100%;
+   ;
+/*    padding: 30px 0;*/
+}
+
+
+
+.papa-slide img{
+   width: 100%;
+    object-fit: cover;
+}
+#slide li{
+    width: 80%
+}
+
+
+
+
+/*tienda virtual*/
+.venta{
+ width: 100%;
+   ;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.caja-venta{
+    width: 100%;
+    
+}
+
+.venta ul{
+     width: 70%;
+    margin:  10%;
+    
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.venta1{
+ width: 100%;
+   ;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.caja-venta1{
+    width: 100%;
+    
+}
+
+.venta1 ul{
+     width: 70%;
+    margin:  10%;
+    
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.venta2{
+ width: 100%;
+   ;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.caja-venta2{
+    width: 100%;
+    
+}
+
+.venta2 ul{
+     width: 70%;
+    margin:  10%;
+    
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.venta3{
+ width: 100%;
+   ;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.caja-venta3{
+    width: 100%;
+    
+}
+
+.venta3 ul{
+     width: 70%;
+    margin:  10%;
+    
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*cursos*/
+
+
+/*pie de pagina*/
+
+.pie{
+    
+    margin: auto;
+    width: 0% 0%;
+   
+    padding: 3%;
+     
+}
+
+.papa-pie{
+    
+    width: 5% 10%;
+   
+    display: flex;
+   
+    padding: -5px  0;
+    background-color: 
+    
+    
+}
+
+.hijo-pie{
+    width: %;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.hijo-pie-redes{
+    
+    width: 10%;
+    margin: auto;
+    
+   
+}
+
+.hijo-pie-redes ul{
+   
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.hijo-pie-redes a{
+    font-size: 2em;
+}
+
+/*estilos de ventas*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjetas{
+    font-family: 'Conv_ClementePDaa-Hairline[1]';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: -10%;
+    
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 8px;
+    width: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    
+    height: 350px;
+    width: 300px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 2px solid white;
+    transition: all .4s ease-in-out;
+    
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0,5);
+   background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+    
+    text-align: center;
+}
+
+.card:hover{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+.card-encabezado img{
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border-top: 8px solid white;
+    
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+.desplazar{
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(-45px);
+}
+
+
+.agrandar{
+    transform: scale(0);
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+.card:hover .agrandar{
+    opacity: 1;
+    transform: scal(1);
+}
+
+.card:hover .desplazar{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.desplazar:nth-child(1){
+    transition-delay: 1s;
+    
+}
+.desplazar:nth-child(2){
+    transition-delay: 2s;
+    
+}
+
+.desplazar:nth-child(3){
+    transition-delay: -4s;
+}
+
+.info-personal:nth-child(1){
+    font-size: 30px;
+    color:purple;
+    padding: 10px;
+    line-height: 25px;
+    font-family: 'Conv_CaviarDreams[1]';
+}
+
+.info-personal:nth-child(3){
+    margin: 15px 0;
+    color: purple;
+    font-family: 'Conv_CaviarDreams[1]';
+}
+
+.info-personal:nth-child(2){
+    margin: 15px 0;
+    color: rebeccapurple;
+    font-family: 'Conv_CaviarDreams[1]';
+}
+info-personal {
+       color: white;
+    font-family:'Conv_CaviarDreams[1]';
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .contenedor{grid-template-columns: repeat(2,1fr);
+    
+}
+
+@media (max-width:500px){
+    .contenedor{grid-template-columns: 1fr;
+        grid-gap: 5px;
+        
+    
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*galeria*/
+    .containers{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .containers .cards{
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        box-shadow: 0 2px rgba(0, 0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+    }
+    
+    .containers .cards:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0, 0.2);
+        
+       
+    }
+
+    
+    .containers .cards img{
+        width: 330px;
+        height: 220px;
+    }
+
+    .containers cards h4{
+        font-weight: 600;
+        align-items: center;
+    justify-content: center;
+    }
+
+    
+    .containers .cards p{
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        
+    }
+    
+    
+    .containers .cards a{
+        font-weight: 500;
+        text-decoration: none;
+        color: #3498db;
+    }
+    
+    
+    
+  
+    /*tarjeta 3d*/
+    
+    .comic{
+    height: 250px;
+        width: 250px;
+        margin: auto;
+    }
+    
+    
+    .carta{
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    .lado{
+        
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    
+    .frente{
+        background: white;
+        
+    }
+    
+    
+    .atras{
+        background: crimson;
+        transform: rotateY(180deg);
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
